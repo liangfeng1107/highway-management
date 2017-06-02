@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="2.0">
+	<endpoint name="UserService" implementation="com.highway.service.MyUserServiceImpl" url-pattern="/UserService"></endpoint>
+	<endpoint name="AreaService"
+		implementation="com.highway.service.AreaService"
+		url-pattern="/AreaService">
+	</endpoint>
+	<endpoint name="EquipmentTableService"
+		implementation="com.highway.service.EquipmentTableService"
+		url-pattern="/EquipmentTableService">
+	</endpoint>
+	<endpoint name="NodeLogService"
+		implementation="com.highway.service.NodeLogService"
+		url-pattern="/NodeLogService">
+	</endpoint>
+</endpoints>
